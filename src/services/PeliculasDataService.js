@@ -13,8 +13,8 @@ class PeliculasDataService {
     return http.post("/peliculas", data);
   }
 
-  update(id, data) {
-    return http.put(`/peliculas/${id}`, data);
+  update(id, pelicula) {
+    return http.put(`/peliculas/${id}`, pelicula);
   }
 
   delete(id) {

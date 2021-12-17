@@ -71,14 +71,12 @@ export default {
         director: "",
         clasificacion: ""
       },
-      submitted: false,
-      peliculaId: null
+      submitted: false
     };
   },
   methods: {
     savePelicula() {
       var peliculaData = {
-        id : this.pelicula.id,
         nombre: this.pelicula.nombre,
         director: this.pelicula.director,
         clasificacion: this.pelicula.clasificacion

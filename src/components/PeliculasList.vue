@@ -34,8 +34,7 @@ export default {
     return {
       peliculas: [],
       currentPelicula: null,
-      currentIndex: -1,
-      title: ""
+      currentIndex: -1
     };
   },
   methods: {
@@ -53,7 +52,7 @@ export default {
     },
     refreshList() {
       this.retrievePeliculas();
-      this.currentTutorial = null;
+      this.currentPelicula = null;
       this.currentIndex = -1;
     },
   },
