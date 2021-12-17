@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+To execute the program you just run json-server in port 8085
+json-server --watch peliculas.json -p 8085

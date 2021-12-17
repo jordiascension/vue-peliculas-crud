@@ -40,6 +40,8 @@ export default {
   },
   methods: {
     retrievePeliculas() {
+      //eslint-disable-next-line no-debugger 
+      debugger
       PeliculasDataService.getAll()
         .then(response => {
           this.peliculas = response.data;
