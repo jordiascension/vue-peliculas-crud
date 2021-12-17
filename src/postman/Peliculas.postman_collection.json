@@ -11,14 +11,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8085/peliculas",
+					"raw": "http://localhost:8085/peliculas/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8085",
 					"path": [
-						"peliculas"
+						"peliculas",
+						""
 					]
 				}
 			},
@@ -96,6 +97,26 @@
 					"path": [
 						"peliculas",
 						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Peliculas By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/peliculas/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"peliculas",
+						"2"
 					]
 				}
 			},
